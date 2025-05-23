@@ -63,11 +63,27 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
-          <h2 style="color: aliceblue;">Kına Bilgileri</h2>
-          <p class="alamat">Adres: Buhara Mh. <br> Saygın Sk. No:7, 42070 Selçuklu/Konya</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d393.4005532402417!2d32.48703180454509!3d37.92565446873997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d08f0b8fb442b9%3A0xcb2a7cee6ef4aecf!2sBuhara%2C%20Sayg%C4%B1n%20Sk.%20No%3A7%2C%2042070%20Sel%C3%A7uklu%2FKonya!5e0!3m2!1str!2str!4v1748005847939!5m2!1str!2str" 
-          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <a href="https://maps.app.goo.gl/4UkNCxDdWtCE8FUB8" target="_blank" class="btn btn-light btn-sm my-3">Haritada Görüntüle</a>
+          <div class="card text-center text-bg-light mb-5">
+            <div class="card-header">
+              <h2 style="color: aliceblue;">Mekan Bilgileri</h2>
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <i class="bi bi-map d-block"></i>
+                  <h3 style="color: aliceblue;">MAVERA DÜĞÜN MERKEZİ</h3>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p class="alamat">Adres: Kozağaç Mah. Hatıp Cad. <br>No:289/A<br>MERAM KONYA</p>
+            </div>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3878.7050691691015!2d32.427535015850836!3d37.80837528104934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d081eb0c93de19%3A0xe4b526c2294fe7c5!2zTWF2ZXJhIETDvMSfw7xuIE1lcmtlemk!5e1!3m2!1str!2str!4v1748019413735!5m2!1str!2str"
+            width="100%" height="250" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="https://maps.app.goo.gl/fc35is6zb6J2pM6u7" class="btn btn-lg mt-4">Haritada Görüntüle</a>
         </div>
       </div>
 
@@ -83,7 +99,7 @@
                 </div>
                 <div class="col-md-6">
                   <i class="bi bi-calendar3 d-block"></i>
-                  <span>Cumartesi, 12 Temmuz 2025</span>
+                  <span>Cumartesi, 10 Temmuz 2025</span>
                 </div>
               </div>
             </div>
@@ -320,7 +336,7 @@
       rootElement.style.scrollBehavior = 'smooth';
       // localStorage.setItem('opened', 'true');
       playAudio();
-      
+
       document.getElementById('hero').style.display = 'none';
 
     }
@@ -364,7 +380,7 @@
         })
           .then(() => {
             alert("Konfirmasi kehadiran berhasil terkirim!");
-            document.getElementById("my-form").reset(); 
+            document.getElementById("my-form").reset();
           })
       });
     });
