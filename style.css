@@ -179,6 +179,18 @@ body {
   padding-bottom: 8rem;*/
 }
 
+.info_joke {
+  background-image: url(img/bg.png);
+  background-size: cover;
+  padding-top: 10rem;
+
+
+  /*background-color: var(--bg);
+  color: white;
+  padding-top: 10rem;
+  padding-bottom: 8rem;*/
+}
+
 .info .alamat {
   font-size: 1.1rem;
 }
@@ -195,6 +207,12 @@ body {
 }
 .card {
   background-color: rgba(0, 0, 0, 0.9) !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.card_joke {
+  background-color: rgba(0, 0, 0, 0.7) !important;
   color: white !important;
   border-radius: 10px;
 }
